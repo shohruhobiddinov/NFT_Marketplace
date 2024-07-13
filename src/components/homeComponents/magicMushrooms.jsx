@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import avatarSmall from "../../assets/Asset 12 2 (6).png";
 import { FaRegEye } from "react-icons/fa6";
+import {Link} from "react-router-dom";
 
 function MagicMushrooms(props) {
     const [time, setTime] = useState(new Date());
@@ -29,10 +30,12 @@ function MagicMushrooms(props) {
                     </div>
                     <h1 className={"font-[600] my-6 sm:text-[35px] md:text-[40px] lg:text-[45px] xl:text-[55px]"}>Magic
                         Mushrooms</h1>
-                    <button
-                        className={"flex items-center bg-white text-black font-[600] gap-3 py-3 px-5 rounded-[15px] md:mt-5 sm:mt-5"}>
-                        <FaRegEye className={"text-[#A259FF]"}/>See NFT
-                    </button>
+                    <Link to={"orbitians"}>
+                        <button
+                            className={"flex items-center bg-white text-black font-[600] gap-3 py-3 px-5 rounded-[15px] md:mt-5 sm:mt-5"}>
+                            <FaRegEye className={"text-[#A259FF]"}/>See NFT
+                        </button>
+                    </Link>
                 </div>
                 <div>
                     <div className={"bg-[#5B4181] py-5 sm:px-3 md:px-7 lg:px-10 xl:px-10 rounded-2xl"}>

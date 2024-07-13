@@ -1,6 +1,7 @@
 import React from 'react';
 import {FaRegEye} from "react-icons/fa6";
 import {discoverMore} from "../../data/backend";
+import {Link} from "react-router-dom";
 
 function DiscoverMore(props) {
     return (
@@ -15,10 +16,12 @@ function DiscoverMore(props) {
                         <p className={"text-[20px]"}>Explore new trending NFTs</p>
                     </div>
                     <div>
-                        <button
-                            className={"flex items-center gap-3 border-[#A259FF] border-2 py-3 px-5 rounded-[15px] md:mt-5 sm:mt-5"}>
-                            <FaRegEye className={"text-[#A259FF]"}/>See All
-                        </button>
+                        <Link to={"artistPage"}>
+                            <button
+                                className={"flex items-center gap-3 border-[#A259FF] border-2 py-3 px-5 rounded-[15px] md:mt-5 sm:mt-5"}>
+                                <FaRegEye className={"text-[#A259FF]"}/>See All
+                            </button>
+                        </Link>
                     </div>
                 </div>
 

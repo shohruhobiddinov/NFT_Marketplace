@@ -28,9 +28,11 @@ function Home(props) {
                         Collect NFTs</h1>
                     <p className={"my-5 "}>NFT marketplace UI created with Anima for Figma. Collect, buy and sell art
                         from more than 20k NFT artists.</p>
-                    <button className={"flex items-center gap-3 bg-[#A259FF] py-4 px-5 rounded-[15px] "}>
-                        <MdOutlineRocketLaunch/> Get Started
-                    </button>
+                    <Link to={"/orbitians"}>
+                        <button className={"flex items-center gap-3 bg-[#A259FF] py-4 px-5 rounded-[15px] "}>
+                            <MdOutlineRocketLaunch/> Get Started
+                        </button>
+                    </Link>
                     <div className={"flex flex-wrap justify-between w-[90%] mt-5 gap-3"}>
                     <span className={""}>
                         <h3 className={"font-bold text-[25px]"}>240k+ </h3>
@@ -46,7 +48,8 @@ function Home(props) {
                     </span>
                     </div>
                 </div>
-                <Link to={"/artistPage"} className={"md:w-[50%] md:pl-5 sm:w-[100%] sm:p-0 lg:w-[50%] lg:pl-5 xl:w-[50%] xl:pl-5"}>
+                <Link to={"/artistPage"}
+                      className={"md:w-[50%] md:pl-5 sm:w-[100%] sm:p-0 lg:w-[50%] lg:pl-5 xl:w-[50%] xl:pl-5"}>
                     <div className="card bg-[#3B3B3B] rounded-[20px]">
                         <img src={cardImage} alt="cardImage" className={"w-full"}/>
                         <div className={"p-5"}>

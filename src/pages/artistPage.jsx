@@ -132,7 +132,7 @@ function ArtistPage(props) {
 
             }
 
-            <div className={"w-full h-[2px] bg-[#3B3B3B]"}></div>
+            <div className={"w-full h-[2px] bg-[#2B2B2B]"}></div>
 
             <Footer/>
         </div>

@@ -89,6 +89,9 @@ function Footer(props) {
                         </Button>
                     </Space.Compact>
                 </div>
+
+                <div className={"w-full h-[2px] bg-[#858584] my-5"}></div>
+                <p className={"text-[#CCCCCC] text-[15px] cursor-pointer"}>Ⓒ NFT Market. Use this template freely.</p>
             </div>
         </div>
     );

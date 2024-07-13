@@ -1,6 +1,7 @@
 import React from 'react';
 import {MdOutlineRocketLaunch} from "react-icons/md";
 import {topCreators} from "../../data/backend";
+import {Link} from "react-router-dom";
 
 function TopCreators(props) {
     return (
@@ -15,10 +16,12 @@ function TopCreators(props) {
                         <p className={"text-[20px]"}>Checkout Top Rated Creators on the NFT Marketplace</p>
                     </div>
                     <div>
-                        <button
-                            className={"flex items-center gap-3 border-[#A259FF] border-2 py-4 px-5 rounded-[15px] md:mt-5 sm:mt-5"}>
-                            <MdOutlineRocketLaunch className={"text-[#A259FF]"}/>View Rankings
-                        </button>
+                        <Link to={"artistPage"}>
+                            <button
+                                className={"flex items-center gap-3 border-[#A259FF] border-2 py-4 px-5 rounded-[15px] md:mt-5 sm:mt-5"}>
+                                <MdOutlineRocketLaunch className={"text-[#A259FF]"}/>View Rankings
+                            </button>
+                        </Link>
                     </div>
                 </div>
                 <div className={"flex justify-between flex-wrap my-10"}>

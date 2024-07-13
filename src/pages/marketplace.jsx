@@ -40,15 +40,19 @@ function Marketplace(props) {
 
             <div className={"flex justify-center gap-[10%] mt-3"}>
                 <h1 onClick={createdTrue}
-                    className={`w-[30%] text-center cursor-pointer transition-all text-[20px] py-4 hover:border-b-2 
+                    className={`w-[30%] text-center cursor-pointer transition-all text-[20px] py-4 hover:border-b-2 flex items-center justify-center
                     ${created ? "border-b-2" : "text-gray-500"}`}>
-                    NFTs <span className={`${created ? "bg-[#858584] text-white py-2 px-3 mx-3 rounded-2xl" : "bg-[#3B3B3B] text-white py-2 px-3 mx-3 rounded-2xl"}`}>{nfts.length}</span>
+                    NFTs <span className={`${created ? "bg-[#858584] text-white py-2 px-3 mx-3 rounded-2xl" : "bg-[#3B3B3B] text-white py-2 px-3 mx-3 rounded-2xl"} sm:hidden md:block`}>
+                    {nfts.length}
+                </span>
                 </h1>
                 <h1 onClick={collectionsTrue}
-                    className={`w-[30%] text-center cursor-pointer transition-all text-[20px] py-4 hover:border-b-2
+                    className={`w-[30%] text-center cursor-pointer transition-all text-[20px] py-4 hover:border-b-2 flex items-center justify-center
                      ${collection ? "border-b-2" : "text-gray-500"}`}>
                     Collections <span
-                    className={`${collection ? "bg-[#858584] text-white py-2 px-3 mx-3 rounded-2xl" : "bg-[#3B3B3B] text-white py-2 px-3 mx-3 rounded-2xl"}`}>{collections.length}</span>
+                    className={`${collection ? "bg-[#858584] text-white py-2 px-3 mx-3 rounded-2xl" : "bg-[#3B3B3B] text-white py-2 px-3 mx-3 rounded-2xl"} sm:hidden md:block`}>
+                    {collections.length}
+                </span>
                 </h1>
             </div>
             {
