@@ -41,6 +41,15 @@ import nftImage9 from "../assets/Image (10).png";
 import nftImage10 from "../assets/Image (11).png";
 import nftImage11 from "../assets/Image (12).png";
 import nftImage12 from "../assets/Image (13).png";
+import created1 from "../assets/Image (14).png";
+import created2 from "../assets/Image (15).png";
+import created3 from "../assets/Image (16).png";
+import created4 from "../assets/Image (17).png";
+import created5 from "../assets/Image Placeholder (4).png";
+import created6 from "../assets/Image Placeholder (5).png";
+import created7 from "../assets/Image Placeholder (6).png";
+import created8 from "../assets/Image Placeholder (7).png";
+import created9 from "../assets/Image Placeholder (8).png";
 
 
 export const trendingCollection = [
@@ -394,6 +403,31 @@ export const collections = [
         title: "Sunset Dimension",
         nftAvatar: trandingAvatar3,
         name: "ShrooAnimakidmie",
+        price: "1.63 ETH",
+        highestBid: "0.33 wETH",
+    },
+
+    {
+        image: nftImage6,
+        title: "Dancing Robot 0312",
+        nftAvatar: trandingAvatar3,
+        name: "Robotica",
+        price: "1.63 ETH",
+        highestBid: "0.33 wETH",
+    },
+    {
+        image: nftImage1,
+        title: "Magic Mushroom 0325",
+        nftAvatar: trandingAvatar1,
+        name: "Shroomie",
+        price: "1.63 ETH",
+        highestBid: "0.33 wETH",
+    },
+    {
+        image: nftImage2,
+        title: "Happy Robot 032",
+        nftAvatar: trandingAvatar2,
+        name: "BeKind2Robots",
         price: "1.63 ETH",
         highestBid: "0.33 wETH",
     },
@@ -1075,3 +1109,230 @@ export const alltimeTable = [
     },
 
 ];
+
+export const created =  [
+    {
+        image: created1,
+        title: "Magic Mushroom 0325",
+        nftAvatar: trandingAvatar1,
+        name: "Shroomie",
+        price: "1.63 ETH",
+        highestBid: "0.33 wETH",
+    },
+    {
+        image: created2,
+        title: "Happy Robot 032",
+        nftAvatar: trandingAvatar2,
+        name: "BeKind2Robots",
+        price: "1.63 ETH",
+        highestBid: "0.33 wETH",
+    },
+    {
+        image: created3,
+        title: "Happy Robot 024",
+        nftAvatar: trandingAvatar3,
+        name: "BeKind2Robots",
+        price: "1.63 ETH",
+        highestBid: "0.33 wETH",
+    },
+    {
+        image: created4,
+        title: "Designer Bear",
+        nftAvatar: trandingAvatar1,
+        name: "Mr Fox",
+        price: "1.63 ETH",
+        highestBid: "0.33 wETH",
+    },
+    {
+        image: created5,
+        title: "Colorful Dog 0356",
+        nftAvatar: trandingAvatar2,
+        name: "Keepitreal",
+        price: "1.63 ETH",
+        highestBid: "0.33 wETH",
+    },
+    {
+        image: created6,
+        title: "Dancing Robot 0312",
+        nftAvatar: trandingAvatar3,
+        name: "Robotica",
+        price: "1.63 ETH",
+        highestBid: "0.33 wETH",
+    },
+    {
+        image: created7,
+        title: "Cherry Blossom Girl 035",
+        nftAvatar: trandingAvatar1,
+        name: "MoonDancer",
+        price: "1.63 ETH",
+        highestBid: "0.33 wETH",
+    },
+    {
+        image: created8,
+        title: "Space Travel",
+        nftAvatar: trandingAvatar2,
+        name: "NebulaKid",
+        price: "1.63 ETH",
+        highestBid: "0.33 wETH",
+    },
+    {
+        image: created9,
+        title: "Sunset Dimension",
+        nftAvatar: trandingAvatar3,
+        name: "ShrooAnimakidmie",
+        price: "1.63 ETH",
+        highestBid: "0.33 wETH",
+    }
+]
+
+export const owned =  [
+    {
+        image: created4,
+        title: "Designer Bear",
+        nftAvatar: trandingAvatar1,
+        name: "Mr Fox",
+        price: "1.63 ETH",
+        highestBid: "0.33 wETH",
+    },
+    {
+        image: created5,
+        title: "Colorful Dog 0356",
+        nftAvatar: trandingAvatar2,
+        name: "Keepitreal",
+        price: "1.63 ETH",
+        highestBid: "0.33 wETH",
+    },
+    {
+        image: created6,
+        title: "Dancing Robot 0312",
+        nftAvatar: trandingAvatar3,
+        name: "Robotica",
+        price: "1.63 ETH",
+        highestBid: "0.33 wETH",
+    },
+    {
+        image: created1,
+        title: "Magic Mushroom 0325",
+        nftAvatar: trandingAvatar1,
+        name: "Shroomie",
+        price: "1.63 ETH",
+        highestBid: "0.33 wETH",
+    },
+    {
+        image: created2,
+        title: "Happy Robot 032",
+        nftAvatar: trandingAvatar2,
+        name: "BeKind2Robots",
+        price: "1.63 ETH",
+        highestBid: "0.33 wETH",
+    },
+    {
+        image: created3,
+        title: "Happy Robot 024",
+        nftAvatar: trandingAvatar3,
+        name: "BeKind2Robots",
+        price: "1.63 ETH",
+        highestBid: "0.33 wETH",
+    },
+
+    {
+        image: created6,
+        title: "Dancing Robot 0312",
+        nftAvatar: trandingAvatar3,
+        name: "Robotica",
+        price: "1.63 ETH",
+        highestBid: "0.33 wETH",
+    },
+    {
+        image: created7,
+        title: "Cherry Blossom Girl 035",
+        nftAvatar: trandingAvatar1,
+        name: "MoonDancer",
+        price: "1.63 ETH",
+        highestBid: "0.33 wETH",
+    },
+    {
+        image: created8,
+        title: "Space Travel",
+        nftAvatar: trandingAvatar2,
+        name: "NebulaKid",
+        price: "1.63 ETH",
+        highestBid: "0.33 wETH",
+    },
+
+    {
+        image: created9,
+        title: "Sunset Dimension",
+        nftAvatar: trandingAvatar3,
+        name: "ShrooAnimakidmie",
+        price: "1.63 ETH",
+        highestBid: "0.33 wETH",
+    }
+]
+
+export const collection =  [
+    {
+        image: created2,
+        title: "Happy Robot 032",
+        nftAvatar: trandingAvatar2,
+        name: "BeKind2Robots",
+        price: "1.63 ETH",
+        highestBid: "0.33 wETH",
+    },
+    {
+        image: created3,
+        title: "Happy Robot 024",
+        nftAvatar: trandingAvatar3,
+        name: "BeKind2Robots",
+        price: "1.63 ETH",
+        highestBid: "0.33 wETH",
+    },
+    {
+        image: created4,
+        title: "Designer Bear",
+        nftAvatar: trandingAvatar1,
+        name: "Mr Fox",
+        price: "1.63 ETH",
+        highestBid: "0.33 wETH",
+    },
+    {
+        image: created5,
+        title: "Colorful Dog 0356",
+        nftAvatar: trandingAvatar2,
+        name: "Keepitreal",
+        price: "1.63 ETH",
+        highestBid: "0.33 wETH",
+    },
+    {
+        image: created6,
+        title: "Dancing Robot 0312",
+        nftAvatar: trandingAvatar3,
+        name: "Robotica",
+        price: "1.63 ETH",
+        highestBid: "0.33 wETH",
+    },
+    {
+        image: created7,
+        title: "Cherry Blossom Girl 035",
+        nftAvatar: trandingAvatar1,
+        name: "MoonDancer",
+        price: "1.63 ETH",
+        highestBid: "0.33 wETH",
+    },
+    {
+        image: created9,
+        title: "Sunset Dimension",
+        nftAvatar: trandingAvatar3,
+        name: "ShrooAnimakidmie",
+        price: "1.63 ETH",
+        highestBid: "0.33 wETH",
+    },
+    {
+        image: created1,
+        title: "Magic Mushroom 0325",
+        nftAvatar: trandingAvatar1,
+        name: "Shroomie",
+        price: "1.63 ETH",
+        highestBid: "0.33 wETH",
+    },
+]

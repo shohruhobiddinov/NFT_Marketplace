@@ -3,19 +3,20 @@ import {Input} from "antd";
 import {IoSearchOutline} from "react-icons/io5";
 import Nfts from "./marketplacePagePages/nfts";
 import Collections from "./marketplacePagePages/collections";
-import Footer from "../components/homeComponents/footer"; // Import the custom CSS
+import Footer from "../components/homeComponents/footer";
+import {collections, nfts} from "../data/backend"; // Import the custom CSS
 
 function Marketplace(props) {
 
-    const [nft, setNft] = useState(true);
-    const [collections, setCollections] = useState(false);
+    const [created, setCreated] = useState(true);
+    const [collection, setCollections] = useState(false);
 
-    const nftTrue = () => {
-        setNft(true)
+    const createdTrue = () => {
+        setCreated(true)
         setCollections(false)
     };
     const collectionsTrue = () => {
-        setNft(false)
+        setCreated(false)
         setCollections(true)
     };
 
@@ -38,19 +39,20 @@ function Marketplace(props) {
             <div className={"w-full h-[2px] bg-[#3B3B3B]"}></div>
 
             <div className={"flex justify-center gap-[10%] mt-3"}>
-                <h1 onClick={nftTrue}
+                <h1 onClick={createdTrue}
                     className={`w-[30%] text-center cursor-pointer transition-all text-[20px] py-4 hover:border-b-2 
-                    ${nft ? "border-b-2" : "text-gray-500"}`}>
-                    NFTs
+                    ${created ? "border-b-2" : "text-gray-500"}`}>
+                    NFTs <span className={`${created ? "bg-[#858584] text-white py-2 px-3 mx-3 rounded-2xl" : "bg-[#3B3B3B] text-white py-2 px-3 mx-3 rounded-2xl"}`}>{nfts.length}</span>
                 </h1>
                 <h1 onClick={collectionsTrue}
                     className={`w-[30%] text-center cursor-pointer transition-all text-[20px] py-4 hover:border-b-2
-                     ${collections ? "border-b-2" : "text-gray-500"}`}>
-                    Collections
+                     ${collection ? "border-b-2" : "text-gray-500"}`}>
+                    Collections <span
+                    className={`${collection ? "bg-[#858584] text-white py-2 px-3 mx-3 rounded-2xl" : "bg-[#3B3B3B] text-white py-2 px-3 mx-3 rounded-2xl"}`}>{collections.length}</span>
                 </h1>
             </div>
             {
-                nft ? <Nfts/> : <Collections/>
+                created ? <Nfts/> : <Collections/>
             }
             <div className={"w-full h-[2px] bg-[#2B2B2B]"}></div>
             <Footer/>

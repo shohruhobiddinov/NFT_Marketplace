@@ -16,6 +16,7 @@ import MagicMushrooms from "../components/homeComponents/magicMushrooms";
 import HowItWorks from "../components/homeComponents/howItWorks";
 import JoinOur from "../components/homeComponents/joinOur";
 import Footer from "../components/homeComponents/footer";
+import {Link} from "react-router-dom";
 
 function Home(props) {
     return (
@@ -45,7 +46,7 @@ function Home(props) {
                     </span>
                     </div>
                 </div>
-                <div className={"md:w-[50%] md:pl-5 sm:w-[100%] sm:p-0 lg:w-[50%] lg:pl-5 xl:w-[50%] xl:pl-5"}>
+                <Link to={"/artistPage"} className={"md:w-[50%] md:pl-5 sm:w-[100%] sm:p-0 lg:w-[50%] lg:pl-5 xl:w-[50%] xl:pl-5"}>
                     <div className="card bg-[#3B3B3B] rounded-[20px]">
                         <img src={cardImage} alt="cardImage" className={"w-full"}/>
                         <div className={"p-5"}>
@@ -56,7 +57,7 @@ function Home(props) {
                         </span>
                         </div>
                     </div>
-                </div>
+                </Link>
             </div>
             {/* Trading Collection */}
             <TradingCollection/>

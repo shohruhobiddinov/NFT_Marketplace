@@ -36,4 +36,8 @@
     background-color: transparent;
     border: 2px solid #808080;
 }
+.mainBg{
+    background-image: url("./assets/Image PlaceHolder (3).png");
+    width: 100%;
+}
 
