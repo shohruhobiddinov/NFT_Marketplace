@@ -11,7 +11,7 @@ function Today(props) {
                         className={"flex items-center justify-center bg-[#2B2B2B] text-[#858584] py-1 px-3 rounded-full"}>
                         #
                     </span>
-                    <h3 className="w-[10%]">Artist</h3>
+                    <h3 className="w-[10%] sm:mr-10 md:mr-0">Artist</h3>
                     <h3 className="w-[30%] text-start">Name</h3>
 
                     <p className={"text-[#858584] w-[15%] sm:hidden md:block"}>Change</p>

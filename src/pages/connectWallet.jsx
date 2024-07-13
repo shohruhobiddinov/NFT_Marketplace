@@ -28,7 +28,6 @@ function ConnectWallet(props) {
                         <img src={coinbase} alt="metamask"/>
                         <h3 className={"font-bold text-[20px]"}>Coinbase</h3>
                     </div>
-
                 </div>
             </div>
             <Footer/>
